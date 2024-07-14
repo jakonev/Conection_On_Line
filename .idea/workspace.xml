@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4d4f35a-d0fc-4664-b2b6-6d4911a8c33d" name="Changes" comment="0000:">
-      <change afterPath="$PROJECT_DIR$/CODNEG.postman_collection.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cria_base.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/get_postman.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cotacao.db" beforeDir="false" afterPath="$PROJECT_DIR$/cotacao.db" afterDir="false" />
-    </list>
+    <list default="true" id="b4d4f35a-d0fc-4664-b2b6-6d4911a8c33d" name="Changes" comment="0000: ajustes" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,7 +54,7 @@
       <recent name="D:\Python Projects\Conection_On_Line\test_unitarios" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.get_postman">
+  <component name="RunManager" selected="Python tests.Python tests for test_main_.test_filter_data">
     <configuration name="conection_rest_sqlite" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Conection_On_Line" />
       <option name="ENV_FILES" value="" />
@@ -175,11 +168,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.get_postman" />
-        <item itemvalue="Python tests.Python tests for test_main_.test_filter_data" />
         <item itemvalue="Python tests.Python tests for test_main_.test_load_data" />
+        <item itemvalue="Python tests.Python tests for test_main_.test_filter_data" />
         <item itemvalue="Python tests.Python tests for test_main_.test_database_integration" />
         <item itemvalue="Python.conection_rest_sqlite" />
+        <item itemvalue="Python.get_postman" />
       </list>
     </recent_temporary>
   </component>
@@ -207,7 +200,23 @@
       <option name="project" value="LOCAL" />
       <updated>1720979277588</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="0000: ajustes">
+      <option name="closed" value="true" />
+      <created>1720988142882</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1720988142882</updated>
+    </task>
+    <task id="LOCAL-00003" summary="0000: ajustes">
+      <option name="closed" value="true" />
+      <created>1720988264267</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1720988264267</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -224,6 +233,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="0000:" />
-    <option name="LAST_COMMIT_MESSAGE" value="0000:" />
+    <MESSAGE value="0000: ajustes" />
+    <option name="LAST_COMMIT_MESSAGE" value="0000: ajustes" />
   </component>
 </project>

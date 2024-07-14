@@ -1,0 +1,116 @@
+{
+	"info": {
+		"_postman_id": "c9bb5582-fef7-4320-8c55-6683704cb6b3",
+		"name": "CODNEG",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "31391819"
+	},
+	"item": [
+		{
+			"name": "  https://cotahist-2f8e.restdb.io/rest/cota-hist",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "content-type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "x-apikey",
+						"value": "a78a2fe211a7547f5fc7f323bf8ed3a99651a",
+						"type": "text"
+					},
+					{
+						"key": "cache-control",
+						"value": "no-cache",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://cotahist-2f8e.restdb.io/rest/cota-hist?CODNEG={}",
+					"protocol": "https",
+					"host": [
+						"cotahist-2f8e",
+						"restdb",
+						"io"
+					],
+					"path": [
+						"rest",
+						"cota-hist"
+					],
+					"query": [
+						{
+							"key": "CODNEG",
+							"value": "{}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:5000/fetch-data?codneg=BEEF3",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Return specific data\", function () {\r",
+							"    const jsonData = {\r",
+							"        \"_id\": \"\",\r",
+							"        \"CODNEG\": \"\",\r",
+							"        \"VOLTOT\": \"\",\r",
+							"        \"PRE-ABE\": \"{}\",\r",
+							"        \"PRE-MAX\": \"\"\r",
+							"        \r",
+							"    };\r",
+							"\r",
+							"    pm.response.to.have.status(200);\r",
+							"    pm.response.to.have.jsonBody(jsonData);\r",
+							"});\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "content-type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "",
+						"value": "",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://127.0.0.1:5000/fetch-data?codneg=BEEF3",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"fetch-data"
+					],
+					"query": [
+						{
+							"key": "codneg",
+							"value": "BEEF3"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
